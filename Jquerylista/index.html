@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    
+    <script src="jquery-3.6.0.min.js"></script>
+    <script src="codigo.js"></script>
+ 
+    <title>jquery</title>
+</head>
+<body>
+    <div class="container">
+        <form action="#">
+
+             <h1 class="title">Calculadora</h1>
+            <label for="numero1">Primer número</label> <br>
+            <input class="input" type="number" name="numero1" id="num1"> <br>
+
+            <label for="numero2">Segundo número</label> <br>
+            <input class="input" type="number" name="numero2" id="num2"> <br>
+
+            <label for="operador">selecciona operador</label> <br>
+            <select class="input" type="text" name="signos" id="operador" placeholder="">
+                <option>Signo</option>
+                <option value="1">+</option>
+                <option value="2">-</option>
+                <option value="3">*</option>
+                <option value="4">/</option>
+            </select>
+            
+            <input class="btn" id="enviar" class="btn btn-outline-primary" type="submit" value="enviar"> <br>
+            
+            <label id="resultado"for="result">El resultado de la operación es:</label> <br>
+            <input class="input" type="text" name="result" id="input-resultado"> <br>
+
+            <p id="resultado"></p>
+        </form>
+    </div>
+</body>
+
+</html>
